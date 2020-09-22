@@ -6,9 +6,7 @@ by Zeynep Gürler and Ahmed Nebli. Please contact gurler17@itu.edu.tr for inquir
 > **Foreseeing Brain Graph Evolution Over Time
 Using Deep Adversarial Network Normalizer**
 > [Zeynep Gürler](https://github.com/zeynepgurler)<sup>1</sup>, [Ahmed Nebli](https://github.com/ahmednebli)<sup>1,2</sup>, [Islem Rekik](https://basira-lab.com/)<sup>1</sup>
-> 
-
-<sup>1</sup>BASIRA Lab, Faculty of Computer and Informatics, Istanbul Technical University, Istanbul, Turkey
+> <sup>1</sup>BASIRA Lab, Faculty of Computer and Informatics, Istanbul Technical University, Istanbul, Turkey
 > <sup>2</sup>National School for Computer Science (ENSI), Mannouba, Tunisia
 >
 > **Abstract:** *Foreseeing the brain 
