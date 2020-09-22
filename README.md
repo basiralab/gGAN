@@ -1,4 +1,5 @@
 # gGAN-PY (graph-based Generative Adversarial Network for normalizing brain graphs with respect to a fixed template) in Python
+
 gGAN-PY (graph-based Generative Adversarial Network) framework for normalizing brain graphs with respect to a fixed template, coded up in Python
 by Zeynep Gürler and Ahmed Nebli. Please contact gurler17@itu.edu.tr for inquiries. Thanks.
  
@@ -34,8 +35,8 @@ This work has been published in the Journal of workshop PRIME at MICCAI, 2020. O
 
 More details can be found at: (link to the paper) and our research paper video on the BASIRA Lab YouTube channel (https://www.youtube.com/watch?v=OJOtLy9Xd34&t=2s). 
 
-![gGAN pipeline](A.png)
-![gGAN pipeline](BC.png)
+![gGAN pipeline](pipeline.png)
+
 
 #Libraries to preinstall in Python
 * [Python 3.7+](https://www.python.org/)
@@ -74,12 +75,12 @@ t denotes the total number of testing subjects, l denotes the number of varying 
 To evaluate our framework, we used leave-one-out cross validation strategy.
 
 To try our code, you can use: demo.py
-For how to install and run our framework, go to LINKK
+For how to install and run our framework, go to link
 
-#Python Code
+# Python Code
 To run gGAN, generate a fixed connectional brain template. Use netNorm: https://github.com/basiralab/netNorm-PY
 
-#Example Results
+# Example Results
 If you set the number of epochs as 500, number of subjects as 90 and number of regions as 35, you will approximately get the following outputs when running the demo with default parameter setting:
 
 ![gGAN pipeline](examples.png)
@@ -89,7 +90,7 @@ Fast Representation Learning with Pytorch-geometric: Fey, Matthias, Lenssen, Jan
 
 Network Normalization for Integrating Multi-view Networks (netNorm): Dhifallah, S., Rekik, I., 2020, Estimation of connectional brain templates using selective multi-view network normalization
 
-#Please Cite the Following paper when using gGAN:
+# Please Cite the Following paper when using gGAN:
 
 @article{gurler2020, title={ Foreseeing Brain Graph Evolution Over Time
 Using Deep Adversarial Network Normalizer}, <br/>
