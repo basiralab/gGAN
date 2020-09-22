@@ -36,7 +36,7 @@ More details can be found at: (link to the paper) and our research paper video o
 
 ![gGAN pipeline](pipeline.png)
 
-#Libraries to preinstall in Python
+# Libraries to preinstall in Python
 * [Python 3.8](https://www.python.org/)
 * [PyTorch 1.4.0](http://pytorch.org/)
 * [Torch-geometric](https://github.com/rusty1s/pytorch_geometric)
@@ -88,7 +88,7 @@ Fast Representation Learning with Pytorch-geometric: Fey, Matthias, Lenssen, Jan
 
 Network Normalization for Integrating Multi-view Networks (netNorm): Dhifallah, S., Rekik, I., 2020, Estimation of connectional brain templates using selective multi-view network normalization
 
-#Please Cite the Following paper when using gGAN:
+# Please Cite the Following paper when using gGAN:
 
 @article{gurler2020, title={ Foreseeing Brain Graph Evolution Over Time Using Deep Adversarial Network Normalizer}, <br/>
 author={Gurler Zeynep, Nebli Ahmed, Rekik Islem}, <br/>
