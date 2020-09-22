@@ -85,7 +85,7 @@ If you set the number of epochs as 500, number of subjects as 90 and number of r
 
 ![gGAN pipeline](examples.png)
 
-#Related References
+# Related References
 Fast Representation Learning with Pytorch-geometric: Fey, Matthias, Lenssen, Jan E., 2019, ICLR Workshop on  Representation Learning on Graphs and Manifolds
 
 Network Normalization for Integrating Multi-view Networks (netNorm): Dhifallah, S., Rekik, I., 2020, Estimation of connectional brain templates using selective multi-view network normalization
