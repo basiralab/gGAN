@@ -1,7 +1,6 @@
 # gGAN-PY (graph-based Generative Adversarial Network for normalizing brain graphs with respect to a fixed template) in Python
-
 gGAN-PY (graph-based Generative Adversarial Network) framework for normalizing brain graphs with respect to a fixed template, coded up in Python
-by Zeynep Gürler and Ahmed Nebli. Please contact gurler17@itu.edu.tr for inquiries. Thanks.
+by Zeynep Gürler and Ahmed Nebli. Please contact zeynepgurler1998@gmail.com for inquiries. Thanks.
  
 > **Foreseeing Brain Graph Evolution Over Time
 Using Deep Adversarial Network Normalizer**
@@ -31,16 +30,15 @@ lowest brain disease evolution prediction error using a single baseline timepoin
 
  
 # Detailed proposed framework pipeline
-This work has been published in the Journal of workshop PRIME at MICCAI, 2020. Our framework is a brain graph evolution trajectory prediction framework based on a gGAN architecture comprising a normalizer network with respect to a fixed connectional brain template (CBT). Our learning-based framework comprises four key steps. (1) Learning to normalize brain graphs with respect to the CBT, (2) Embedding the training, testing graphs and the CBT, (3) Brain graph evolution prediction using top k-closest neighbor selection. Experimental results against comparison methods demonstrate that our framework can achieve the best results in terms of average mean absolute error (MAE). We evaluated our proposed framework from OASIS-2 preprocessed dataset (**LINK**). 
+This work has been published in the Journal of workshop PRIME at MICCAI, 2020. Our framework is a brain graph evolution trajectory prediction framework based on a gGAN architecture comprising a normalizer network with respect to a fixed connectional brain template (CBT). Our learning-based framework comprises four key steps. (1) Learning to normalize brain graphs with respect to the CBT, (2) Embedding the training, testing graphs and the CBT, (3) Brain graph evolution prediction using top k-closest neighbor selection. Experimental results against comparison methods demonstrate that our framework can achieve the best results in terms of average mean absolute error (MAE). We evaluated our proposed framework from OASIS-2 preprocessed dataset (https://www.oasis-brains.org/). 
 
-More details can be found at: (link to the paper) and our research paper video on the BASIRA Lab YouTube channel (https://www.youtube.com/watch?v=OJOtLy9Xd34&t=2s). 
+More details can be found at: (link to the paper) and our research paper video on the BASIRA Lab YouTube channel (link). 
 
 ![gGAN pipeline](pipeline.png)
 
-
 #Libraries to preinstall in Python
-* [Python 3.7+](https://www.python.org/)
-* [PyTorch 1.4.0+](http://pytorch.org/)
+* [Python 3.8](https://www.python.org/)
+* [PyTorch 1.4.0](http://pytorch.org/)
 * [Torch-geometric](https://github.com/rusty1s/pytorch_geometric)
 * [Torch-sparse](https://github.com/rusty1s/pytorch_sparse)
 * [Torch-scatter](https://github.com/rusty1s/pytorch_scatter)
@@ -75,7 +73,7 @@ t denotes the total number of testing subjects, l denotes the number of varying 
 To evaluate our framework, we used leave-one-out cross validation strategy.
 
 To try our code, you can use: demo.py
-For how to install and run our framework, go to link
+For how to install and run our framework, go to LINKK
 
 # Python Code
 To run gGAN, generate a fixed connectional brain template. Use netNorm: https://github.com/basiralab/netNorm-PY
@@ -90,10 +88,9 @@ Fast Representation Learning with Pytorch-geometric: Fey, Matthias, Lenssen, Jan
 
 Network Normalization for Integrating Multi-view Networks (netNorm): Dhifallah, S., Rekik, I., 2020, Estimation of connectional brain templates using selective multi-view network normalization
 
-# Please Cite the Following paper when using gGAN:
+#Please Cite the Following paper when using gGAN:
 
-@article{gurler2020, title={ Foreseeing Brain Graph Evolution Over Time
-Using Deep Adversarial Network Normalizer}, <br/>
+@article{gurler2020, title={ Foreseeing Brain Graph Evolution Over Time Using Deep Adversarial Network Normalizer}, <br/>
 author={Gurler Zeynep, Nebli Ahmed, Rekik Islem}, <br/>
 journal={Predictive Intelligence in Medicine International Society and Conference Series on Medical Image Computing and Computer-Assisted Intervention},
 volume={}, <br/>
