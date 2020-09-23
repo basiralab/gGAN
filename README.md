@@ -83,6 +83,14 @@ If you set the number of epochs as 500, number of subjects as 90 and number of r
 
 ![gGAN pipeline](examples.png)
 
+# YouTube videos to install and run the code and understand how HADA works
+
+To install and run our prediction framework, check the following YouTube video:
+https://youtu.be/5vpQIFzf2Go
+
+To learn about how our architecture works, check the following YouTube video:
+https://youtu.be/2zKle7GzrIM
+
 # Related References
 Fast Representation Learning with Pytorch-geometric: Fey, Matthias, Lenssen, Jan E., 2019, ICLR Workshop on  Representation Learning on Graphs and Manifolds
 
