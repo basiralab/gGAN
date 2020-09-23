@@ -33,12 +33,13 @@ Using Deep Adversarial Network Normalizer
         - scipy
 
     ---------------------------------------------------------------------
-    Copyright 2020 (I don't know what is going to be written here).
+    Copyright 2020 ().
     Please cite the above paper if you use this code.
     All rights reserved.
     """
 
 
+# If you are using Google Colab please uncomment the three following lines.
 # !pip install torch_geometric
 # !pip install torch-sparse==latest+cu101 -f https://pytorch-geometric.com/whl/torch-1.4.0.html
 # !pip install torch-scatter==latest+cu101 -f https://pytorch-geometric.com/whl/torch-1.4.0.html
@@ -428,4 +429,5 @@ independent_data = np.random.normal(0.6, 0.3, (nbr_of_sub_for_cbt, nbr_of_region
 CBT = netNorm(independent_data, nbr_of_sub, nbr_of_regions)
 
 gGAN(data, nbr_of_regions, nbr_of_epochs, nbr_of_folds, hyper_param1, CBT)
+
 """
