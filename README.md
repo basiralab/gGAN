@@ -34,7 +34,8 @@ This work has been published in the Journal of workshop PRIME at MICCAI, 2020. O
 
 More details can be found at: (link to the paper) and our research paper video on the BASIRA Lab YouTube channel (link). 
 
-![gGAN pipeline](pipeline.png)
+![gGAN pipeline](A.png)
+![gGAN pipeline](BC.png)
 
 # Libraries to preinstall in Python
 * [Python 3.8](https://www.python.org/)
@@ -49,7 +50,7 @@ More details can be found at: (link to the paper) and our research paper video o
 # Demo
 
 gGAN is coded in Python 3.8 on Windows 10. GPU is not needed to run the code.
-
+This code has been slightly modified to be compatible across all PyTorch versions.
 In this repo, we release the gGAN source code trained and tested on a simulated data as shown below:
 
 **Data preparation**
@@ -83,13 +84,13 @@ If you set the number of epochs as 500, number of subjects as 90 and number of r
 
 ![gGAN pipeline](examples.png)
 
-# YouTube videos to install and run the code and understand how HADA works
+# YouTube videos to install and run the code and understand how gGAN works
 
 To install and run our prediction framework, check the following YouTube video:
-https://youtu.be/5vpQIFzf2Go
+https://youtu.be/2zKle7GzrIM
 
 To learn about how our architecture works, check the following YouTube video:
-https://youtu.be/2zKle7GzrIM
+https://youtu.be/5vpQIFzf2Go
 
 # Related References
 Fast Representation Learning with Pytorch-geometric: Fey, Matthias, Lenssen, Jan E., 2019, ICLR Workshop on  Representation Learning on Graphs and Manifolds
@@ -98,7 +99,8 @@ Network Normalization for Integrating Multi-view Networks (netNorm): Dhifallah, 
 
 # Please Cite the Following paper when using gGAN:
 
-@article{gurler2020, title={ Foreseeing Brain Graph Evolution Over Time Using Deep Adversarial Network Normalizer}, <br/>
+@article{gurler2020, title={ Foreseeing Brain Graph Evolution Over Time
+Using Deep Adversarial Network Normalizer}, <br/>
 author={Gurler Zeynep, Nebli Ahmed, Rekik Islem}, <br/>
 journal={Predictive Intelligence in Medicine International Society and Conference Series on Medical Image Computing and Computer-Assisted Intervention},
 volume={}, <br/>
