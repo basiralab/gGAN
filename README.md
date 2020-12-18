@@ -98,6 +98,10 @@ Fast Representation Learning with Pytorch-geometric: Fey, Matthias, Lenssen, Jan
 
 Network Normalization for Integrating Multi-view Networks (netNorm): Dhifallah, S., Rekik, I., 2020, Estimation of connectional brain templates using selective multi-view network normalization
 
+# arXiv link 
+
+You can download our paper at: https://arxiv.org/abs/2009.11166
+
 # Please Cite the Following paper when using gGAN:
 
 @article{gurler2020, title={ Foreseeing Brain Graph Evolution Over Time
