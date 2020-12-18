@@ -34,8 +34,8 @@ This work has been published in the Journal of workshop PRIME at MICCAI, 2020. O
 
 More details can be found at: (link to the paper) and our research paper video on the BASIRA Lab YouTube channel (link). 
 
-![gGAN pipeline](A.png)
-![gGAN pipeline](BC.png)
+![gGAN pipeline](pipeline.png)
+
 
 # Libraries to preinstall in Python
 * [Python 3.8](https://www.python.org/)
@@ -83,6 +83,7 @@ To run gGAN, generate a fixed connectional brain template. Use netNorm: https://
 If you set the number of epochs as 500, number of subjects as 90 and number of regions as 35, you will approximately get the following outputs when running the demo with default parameter setting:
 
 ![gGAN pipeline](examples.png)
+
 
 # YouTube videos to install and run the code and understand how gGAN works
 
