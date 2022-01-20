@@ -34,8 +34,8 @@ This work has been published in the Journal of workshop PRIME at MICCAI, 2020. O
 
 More details can be found at: (link to the paper) and our research paper video on the BASIRA Lab YouTube channel (link). 
 
-![gGAN pipeline](A.png)
-![gGAN pipeline](BC.png)
+![gGAN pipeline](pipeline.png)
+
 
 # Libraries to preinstall in Python
 * [Python 3.8](https://www.python.org/)
@@ -51,7 +51,11 @@ More details can be found at: (link to the paper) and our research paper video o
 
 gGAN is coded in Python 3.8 on Windows 10. GPU is not needed to run the code.
 This code has been slightly modified to be compatible across all PyTorch versions.
-In this repo, we release the gGAN source code trained and tested on a simulated data as shown below:
+demo.py is the implementation of the brain graph evolution trajectory framework that proposed
+by Foreseeing Brain Graph Evolution Over Time Using Deep Adversarial Network 
+Normalizer paper. In order to use just the brain graph normalizer (gGAN), you can run gGAN.py.
+In this repo, we release the gGAN source code trained and tested on a simulated 
+data as shown below:
 
 **Data preparation**
 
@@ -73,8 +77,6 @@ t denotes the total number of testing subjects, l denotes the number of varying 
 
 To evaluate our framework, we used leave-one-out cross validation strategy.
 
-To try our code, you can use: demo.py
-For how to install and run our framework, go to LINKK
 
 # Python Code
 To run gGAN, generate a fixed connectional brain template. Use netNorm: https://github.com/basiralab/netNorm-PY
@@ -83,6 +85,7 @@ To run gGAN, generate a fixed connectional brain template. Use netNorm: https://
 If you set the number of epochs as 500, number of subjects as 90 and number of regions as 35, you will approximately get the following outputs when running the demo with default parameter setting:
 
 ![gGAN pipeline](examples.png)
+
 
 # YouTube videos to install and run the code and understand how gGAN works
 
@@ -96,6 +99,10 @@ https://youtu.be/5vpQIFzf2Go
 Fast Representation Learning with Pytorch-geometric: Fey, Matthias, Lenssen, Jan E., 2019, ICLR Workshop on  Representation Learning on Graphs and Manifolds
 
 Network Normalization for Integrating Multi-view Networks (netNorm): Dhifallah, S., Rekik, I., 2020, Estimation of connectional brain templates using selective multi-view network normalization
+
+# arXiv link 
+
+You can download our paper at: https://arxiv.org/abs/2009.11166
 
 # Please Cite the Following paper when using gGAN:
 
